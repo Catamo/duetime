@@ -1,0 +1,52 @@
+/*New Classes*/
+
+.custom-bg {
+  background-size: 50% !important;
+  background-position: 50% 100% !important;
+  background-color: #333d35 !important;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+  .full-height.minus-header {
+    height: calc(100vh - 72px);
+  }
+
+@media screen and (max-width: 720px) {
+  .custom-bg {
+    background-size: auto 25% !important;
+    background-position: 50% 50% !important;
+  }
+}
+
+.white-text {
+  color: white !important;
+}
+
+.minh {
+  min-height: 500px;
+}
+
+/*Overrides*/
+
+.grommetux-legend__item, .grommetux-legend__total {
+  color: white !important;
+}
+
+.grommetux-legend__item--active {
+  color: rgba(255,255,255,.65) !important;
+}
+
+.grommetux-legend__total {
+  border-top: 1px dotted rgba(255,255,255,.15) !important;
+}
+
+.grommetux-legend {
+  min-width: 116px !important;
+}
+
+.grommetux-legend__total-value {
+  margin-left: 12px;
+}
